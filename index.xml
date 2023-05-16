@@ -1,271 +1,660 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
 and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+
 <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
-  <front>
-    <journal-meta>
-      <journal-id/>
-      <journal-title-group>
-        <journal-title>Geophysical Research Letters</journal-title>
-      </journal-title-group>
-      <issn/>
-      <publisher>
-        <publisher-name/>
-      </publisher>
-    </journal-meta>
-    <article-meta>
-      <title-group>
-        <article-title>Preparing your manuscript</article-title>
-      </title-group>
-      <contrib-group>
-        <contrib contrib-type="author">
-          <contrib-id contrib-id-type="orcid">0000-0003-2402-304X</contrib-id>
-          <name>
-            <surname>Wickham</surname>
-            <given-names>Charlotte</given-names>
-          </name>
-          <string-name>Charlotte Wickham</string-name>
-          <email>fake_email@fakeyfake.com</email>
-          <xref ref-type="aff" rid="aff-1">a</xref>
-        </contrib>
-        <contrib contrib-type="author" corresp="yes">
-          <contrib-id contrib-id-type="orcid">0000-0001-8715-9476</contrib-id>
-          <name>
-            <surname>Teague</surname>
-            <given-names>Charles</given-names>
-          </name>
-          <string-name>Charles Teague</string-name>
-          <email>charles@posit.co</email>
-          <xref ref-type="aff" rid="aff-2">b</xref>
-          <xref ref-type="corresp" rid="cor-2">*</xref>
-        </contrib>
-      </contrib-group>
-      <aff id="aff-1">
-        <institution content-type="dept">Graduate Program in Environmental
+
+<front>
+<journal-meta>
+<journal-id></journal-id>
+
+<journal-title-group>
+<journal-title>Geophysical Research Letters</journal-title>
+</journal-title-group>
+<issn></issn>
+
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+
+
+<article-meta>
+
+
+<title-group>
+<article-title>Preparing your manuscript</article-title>
+</title-group>
+
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">0000-0003-2402-304X</contrib-id>
+<name>
+<surname>Wickham</surname>
+<given-names>Charlotte</given-names>
+</name>
+<string-name>Charlotte Wickham</string-name>
+<email>fake_email@fakeyfake.com</email>
+<xref ref-type="aff" rid="aff-1">a</xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<contrib-id contrib-id-type="orcid">0000-0001-8715-9476</contrib-id>
+<name>
+<surname>Teague</surname>
+<given-names>Charles</given-names>
+</name>
+<string-name>Charles Teague</string-name>
+<email>charles@posit.co</email>
+<xref ref-type="aff" rid="aff-2">b</xref>
+<xref ref-type="corresp" rid="cor-2">&#x002A;</xref>
+</contrib>
+</contrib-group>
+<aff id="aff-1">
+<institution content-type="dept">Graduate Program in Environmental
 Science</institution>
-        <institution-wrap>
-          <institution>State University of New York College of Environmental
+<institution-wrap>
+<institution>State University of New York College of Environmental
 Science and Forestry</institution>
-        </institution-wrap>
-        <addr-line>1 Forestry Drive</addr-line>
-        <city>Syracuse</city>
-        <state>NY</state>
-        <country>USA</country>
-        <postal-code>13210</postal-code>
-      </aff>
-      <aff id="aff-2">
-        <institution-wrap>
-          <institution>Posit, PBC</institution>
-        </institution-wrap>
-        <addr-line>250 Northern Ave</addr-line>
-        <city>Boston</city>
-        <state>Massachusetts</state>
-        <country>USA</country>
-        <postal-code>1160</postal-code>
-      </aff>
-      <author-notes>
-        <corresp id="cor-2">charles@posit.co</corresp>
-      </author-notes>
-      <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2023-05-16">
-        <year>2023</year>
-        <month>5</month>
-        <day>16</day>
-      </pub-date>
-      <history/>
-      <abstract>
-        <p>The abstract (1) states the nature of the investigation and (2)
+</institution-wrap>
+<addr-line>1 Forestry Drive</addr-line>
+<city>Syracuse</city>
+<state>NY</state>
+<country>USA</country>
+<postal-code>13210</postal-code>
+
+
+</aff>
+<aff id="aff-2">
+<institution-wrap>
+<institution>Posit, PBC</institution>
+</institution-wrap>
+<addr-line>250 Northern Ave</addr-line>
+<city>Boston</city>
+<state>Massachusetts</state>
+<country>USA</country>
+<postal-code>1160</postal-code>
+
+
+</aff>
+<author-notes>
+<corresp id="cor-2">charles@posit.co</corresp>
+</author-notes>
+
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2023-05-16">
+<year>2023</year>
+<month>5</month>
+<day>16</day>
+</pub-date>
+
+
+
+
+
+
+
+<history></history>
+
+
+<abstract>
+<p>The abstract (1) states the nature of the investigation and (2)
 summarizes the important conclusions. The abstract should be suitable
 for indexing. Your abstract should:</p>
-        <list list-type="bullet">
-          <list-item>
-            <p>Be set as a single paragraph.</p>
-          </list-item>
-          <list-item>
-            <p>Be less than 250 words for all journals except GRL, for which the
+<list list-type="bullet">
+  <list-item>
+    <p>Be set as a single paragraph.</p>
+  </list-item>
+  <list-item>
+    <p>Be less than 250 words for all journals except GRL, for which the
     limit is 150 words.</p>
-          </list-item>
-          <list-item>
-            <p>Not include table or figure mentions.</p>
-          </list-item>
-          <list-item>
-            <p>Avoid reference citations unless dependent on or directly related
+  </list-item>
+  <list-item>
+    <p>Not include table or figure mentions.</p>
+  </list-item>
+  <list-item>
+    <p>Avoid reference citations unless dependent on or directly related
     to another paper (e.g., companion, comment, reply, or commentary on
     another paper(s)). AGU’s Style Guide discusses formatting citations
     in abstracts.</p>
-          </list-item>
-          <list-item>
-            <p>Define all abbreviations.</p>
-          </list-item>
-        </list>
-      </abstract>
-    </article-meta>
-  </front>
-  <body>
-    <sec id="introduction">
-      <title>Introduction</title>
-      <p>This is a simple placeholder for the manuscript’s main
+  </list-item>
+  <list-item>
+    <p>Define all abbreviations.</p>
+  </list-item>
+</list>
+</abstract>
+
+
+
+
+</article-meta>
+
+</front>
+
+<body>
+<sec id="introduction">
+  <title>Introduction</title>
+  <p>This is a simple placeholder for the manuscript’s main
   document.</p>
-    </sec>
-    <sec id="data-methods">
-      <title>Data &amp; Methods</title>
-    </sec>
-  </body>
-  <back>
+</sec>
+<sec id="data-methods">
+  <title>Data &amp; Methods</title>
+</sec>
+</body>
+
+<back>
 </back>
-  <sub-article article-type="notebook">
-    <front-stub>
-      <title-group>
-        <article-title>Visualization &amp; Figure Creation</article-title>
-      </title-group>
-      <contrib-group>
-        <contrib contrib-type="author">
-          <contrib-id contrib-id-type="orcid">0000-0002-0760-5497</contrib-id>
-          <name>
-            <surname>Purves</surname>
-            <given-names>Steve</given-names>
-          </name>
-          <string-name>Steve Purves</string-name>
-        </contrib>
-      </contrib-group>
-    </front-stub>
-    <body>
-      <sec id="main-timeline-figure">
-        <title>Main Timeline Figure</title>
-      </sec>
-      <sec id="visualising-long-term-earthquake-data">
-        <title>Visualising Long term earthquake data</title>
-        <p>Data taken directly from the IGN Catalog and processed using the
+
+<sub-article article-type="notebook">
+<front-stub>
+<title-group>
+<article-title>Data Screening</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">0000-0002-0760-5497</contrib-id>
+<name>
+<surname>Purves</surname>
+<given-names>Steve</given-names>
+</name>
+<string-name>Steve Purves</string-name>
+</contrib>
+</contrib-group>
+</front-stub>
+
+<body>
+<p>Load and review the data, check that dates are loaded properly and
+filter data down to the events in La Palma only. The dataset itself
+contains all recent IGN earthquake data for Spanish territory.</p>
+<sec id="ba38c3c1-51d7-48d9-8056-c23a0bbfcd18" specific-use="notebook-code">
+<sec id="ba38c3c1-51d7-48d9-8056-c23a0bbfcd18-output-0" specific-use="notebook-output">
+<table-wrap>
+  <table border="1">
+    <thead>
+      <tr style="text-align: right;">
+        <th></th>
+        <th>Event</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>Depth(km)</th>
+        <th>Intensity</th>
+        <th>Magnitude</th>
+        <th>Type Mag</th>
+        <th>Location</th>
+        <th>DateTime</th>
+        <th>Timestamp</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>0</td>
+        <td>es2017aaaga</td>
+        <td>2017-01-01</td>
+        <td>00:48:55</td>
+        <td>36.6765</td>
+        <td>-11.2736</td>
+        <td>0.0</td>
+        <td></td>
+        <td>2.8</td>
+        <td>6</td>
+        <td>SW CABO DE SAN VICENTE</td>
+        <td>2017-01-01 00:48:55</td>
+        <td>1483231735000000000</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>es2017aaakn</td>
+        <td>2017-01-01</td>
+        <td>01:28:17</td>
+        <td>28.1119</td>
+        <td>-16.2225</td>
+        <td>21.0</td>
+        <td></td>
+        <td>0.9</td>
+        <td>4</td>
+        <td>ATLÁNTICO-CANARIAS</td>
+        <td>2017-01-01 01:28:17</td>
+        <td>1483234097000000000</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>es2017aaang</td>
+        <td>2017-01-01</td>
+        <td>01:49:08</td>
+        <td>42.0648</td>
+        <td>-7.8471</td>
+        <td>22.0</td>
+        <td></td>
+        <td>2.0</td>
+        <td>4</td>
+        <td>SW RAIRIZ DE VEIGA.OU</td>
+        <td>2017-01-01 01:49:08</td>
+        <td>1483235348000000000</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>es2017aabdd</td>
+        <td>2017-01-01</td>
+        <td>02:36:20</td>
+        <td>38.3826</td>
+        <td>-9.3767</td>
+        <td>11.0</td>
+        <td></td>
+        <td>2.2</td>
+        <td>4</td>
+        <td>ATLÁNTICO-PORTUGAL</td>
+        <td>2017-01-01 02:36:20</td>
+        <td>1483238180000000000</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>es2017aabkh</td>
+        <td>2017-01-01</td>
+        <td>03:35:03</td>
+        <td>36.2492</td>
+        <td>-7.8227</td>
+        <td>13.0</td>
+        <td></td>
+        <td>1.9</td>
+        <td>4</td>
+        <td>GOLFO DE CÁDIZ</td>
+        <td>2017-01-01 03:35:03</td>
+        <td>1483241703000000000</td>
+      </tr>
+    </tbody>
+  </table>
+</table-wrap>
+</sec>
+</sec>
+<sec id="d81abbcf-d7f2-43e8-ae0c-5f6ce44e6046" specific-use="notebook-code">
+<sec id="d81abbcf-d7f2-43e8-ae0c-5f6ce44e6046-output-0" specific-use="notebook-output">
+<table-wrap>
+  <table border="1">
+    <thead>
+      <tr style="text-align: right;">
+        <th></th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>Depth(km)</th>
+        <th>Magnitude</th>
+        <th>Type Mag</th>
+        <th>Timestamp</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>count</td>
+        <td>58036.000000</td>
+        <td>58036.000000</td>
+        <td>58036.000000</td>
+        <td>58036.000000</td>
+        <td>58036.000000</td>
+        <td>5.803600e+04</td>
+      </tr>
+      <tr>
+        <td>mean</td>
+        <td>34.806854</td>
+        <td>-8.356855</td>
+        <td>11.450831</td>
+        <td>1.881846</td>
+        <td>4.031153</td>
+        <td>1.596182e+18</td>
+      </tr>
+      <tr>
+        <td>std</td>
+        <td>5.263327</td>
+        <td>7.119341</td>
+        <td>11.111965</td>
+        <td>0.763577</td>
+        <td>0.291332</td>
+        <td>4.954865e+16</td>
+      </tr>
+      <tr>
+        <td>min</td>
+        <td>26.349300</td>
+        <td>-19.930400</td>
+        <td>0.000000</td>
+        <td>-0.500000</td>
+        <td>3.000000</td>
+        <td>1.483232e+18</td>
+      </tr>
+      <tr>
+        <td>25%</td>
+        <td>28.563800</td>
+        <td>-16.672325</td>
+        <td>3.000000</td>
+        <td>1.400000</td>
+        <td>4.000000</td>
+        <td>1.559327e+18</td>
+      </tr>
+      <tr>
+        <td>50%</td>
+        <td>35.989200</td>
+        <td>-4.785250</td>
+        <td>10.000000</td>
+        <td>1.800000</td>
+        <td>4.000000</td>
+        <td>1.612319e+18</td>
+      </tr>
+      <tr>
+        <td>75%</td>
+        <td>37.890700</td>
+        <td>-3.234500</td>
+        <td>14.300000</td>
+        <td>2.400000</td>
+        <td>4.000000</td>
+        <td>1.635568e+18</td>
+      </tr>
+      <tr>
+        <td>max</td>
+        <td>44.985000</td>
+        <td>5.996600</td>
+        <td>115.000000</td>
+        <td>6.000000</td>
+        <td>6.000000</td>
+        <td>1.663232e+18</td>
+      </tr>
+    </tbody>
+  </table>
+</table-wrap>
+</sec>
+</sec>
+<sec id="cell-8f6c52f4-b28d-4c22-88c7-e1b17298cae7" specific-use="notebook-code">
+<sec id="8f6c52f4-b28d-4c22-88c7-e1b17298cae7-output-0" specific-use="notebook-output">
+<graphic mimetype="image" mime-subtype="png" xlink:href="data-screening_files/figure-jats/cell-5-output-1.png" />
+</sec>
+</sec>
+<sec id="filter-down-to-la-palma-events-only">
+  <title>Filter down to La Palma events only</title>
+  <p>Also some rows seem to be missing depth measurements, (see
+  differences in the <bold>count</bold> for columns above) - take only
+  rows with valid depths</p>
+  <sec id="c34e47c1-c9cb-4207-978c-292333863e9b" specific-use="notebook-code">
+  <sec id="c34e47c1-c9cb-4207-978c-292333863e9b-output-0" specific-use="notebook-output">
+  <table-wrap>
+    <table border="1">
+      <thead>
+        <tr style="text-align: right;">
+          <th></th>
+          <th>Latitude</th>
+          <th>Longitude</th>
+          <th>Depth(km)</th>
+          <th>Magnitude</th>
+          <th>Type Mag</th>
+          <th>Timestamp</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>count</td>
+          <td>11347.000000</td>
+          <td>11347.000000</td>
+          <td>11347.000000</td>
+          <td>11347.000000</td>
+          <td>11347.0</td>
+          <td>1.134700e+04</td>
+        </tr>
+        <tr>
+          <td>mean</td>
+          <td>28.568893</td>
+          <td>-17.844062</td>
+          <td>14.089345</td>
+          <td>2.432423</td>
+          <td>4.0</td>
+          <td>1.633359e+18</td>
+        </tr>
+        <tr>
+          <td>std</td>
+          <td>0.021899</td>
+          <td>0.027345</td>
+          <td>8.624787</td>
+          <td>0.705282</td>
+          <td>0.0</td>
+          <td>2.007970e+16</td>
+        </tr>
+        <tr>
+          <td>min</td>
+          <td>28.310200</td>
+          <td>-17.995800</td>
+          <td>0.000000</td>
+          <td>0.200000</td>
+          <td>4.0</td>
+          <td>1.489103e+18</td>
+        </tr>
+        <tr>
+          <td>25%</td>
+          <td>28.558000</td>
+          <td>-17.854100</td>
+          <td>10.100000</td>
+          <td>1.900000</td>
+          <td>4.0</td>
+          <td>1.633777e+18</td>
+        </tr>
+        <tr>
+          <td>50%</td>
+          <td>28.564000</td>
+          <td>-17.838700</td>
+          <td>11.300000</td>
+          <td>2.600000</td>
+          <td>4.0</td>
+          <td>1.635671e+18</td>
+        </tr>
+        <tr>
+          <td>75%</td>
+          <td>28.574300</td>
+          <td>-17.829700</td>
+          <td>13.900000</td>
+          <td>2.900000</td>
+          <td>4.0</td>
+          <td>1.638294e+18</td>
+        </tr>
+        <tr>
+          <td>max</td>
+          <td>28.697800</td>
+          <td>-17.705700</td>
+          <td>46.900000</td>
+          <td>5.100000</td>
+          <td>4.0</td>
+          <td>1.663128e+18</td>
+        </tr>
+      </tbody>
+    </table>
+  </table-wrap>
+  </sec>
+  </sec>
+  <sec id="cell-306ba432-daa7-4126-9b5a-689e1ad41e3a" specific-use="notebook-code">
+  <sec id="306ba432-daa7-4126-9b5a-689e1ad41e3a-output-0" specific-use="notebook-output">
+  <graphic mimetype="image" mime-subtype="png" xlink:href="data-screening_files/figure-jats/cell-7-output-1.png" />
+  </sec>
+  </sec>
+</sec>
+<sec id="spatial-plot">
+  <title>Spatial Plot</title>
+  <p>Scatter plot the spatial locations of events</p>
+  <sec id="ed0bda66-c063-47bd-a12e-c688543845b7" specific-use="notebook-code">
+  <sec id="ed0bda66-c063-47bd-a12e-c688543845b7-output-0" specific-use="notebook-output">
+  <preformat>/opt/anaconda3/envs/py3/lib/python3.9/site-packages/matplotlib/collections.py:967: RuntimeWarning: invalid value encountered in sqrt
+  scale = np.sqrt(self._sizes) * dpi / 72.0 * self._factor</preformat>
+  </sec>
+  <sec id="ed0bda66-c063-47bd-a12e-c688543845b7-output-1" specific-use="notebook-output">
+  <graphic mimetype="image" mime-subtype="png" xlink:href="data-screening_files/figure-jats/cell-8-output-2.png" />
+  </sec>
+  </sec>
+  <sec id="timeline-plot">
+    <title>Timeline Plot</title>
+    <p>Scatter plot the event time series and look for any quantization
+    issues. Have times &amp; dates been loaded correctly?</p>
+    <sec id="cell-58a022c7-f34c-499d-a749-aa01f0e1b5db" specific-use="notebook-code">
+    <sec id="58a022c7-f34c-499d-a749-aa01f0e1b5db-output-0" specific-use="notebook-output">
+    <graphic mimetype="image" mime-subtype="png" xlink:href="data-screening_files/figure-jats/cell-9-output-1.png" />
+    </sec>
+    </sec>
+  </sec>
+</sec>
+</body>
+
+
+
+<back>
+</back>
+
+
+</sub-article>
+<sub-article article-type="notebook">
+<front-stub>
+<title-group>
+<article-title>Visualization &amp; Figure Creation</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">0000-0002-0760-5497</contrib-id>
+<name>
+<surname>Purves</surname>
+<given-names>Steve</given-names>
+</name>
+<string-name>Steve Purves</string-name>
+</contrib>
+</contrib-group>
+</front-stub>
+
+<body>
+<sec id="main-timeline-figure">
+  <title>Main Timeline Figure</title>
+</sec>
+<sec id="visualising-long-term-earthquake-data">
+  <title>Visualising Long term earthquake data</title>
+  <p>Data taken directly from the IGN Catalog and processed using the
   <ext-link ext-link-type="uri" xlink:href="data-screening.ipynb">data
   screening notebook</ext-link>.</p>
-        <sec id="f48a68e0" specific-use="notebook-code">
-          <sec id="f48a68e0-output-0" specific-use="notebook-output">
-            <table-wrap>
-              <table border="1">
-                <thead>
-                  <tr style="text-align: right;">
-                    <th/>
-                    <th>Event</th>
-                    <th>Date</th>
-                    <th>Time</th>
-                    <th>Latitude</th>
-                    <th>Longitude</th>
-                    <th>Depth(km)</th>
-                    <th>Intensity</th>
-                    <th>Magnitude</th>
-                    <th>Type Mag</th>
-                    <th>Location</th>
-                    <th>DateTime</th>
-                    <th>Timestamp</th>
-                    <th>Swarm</th>
-                    <th>Phase</th>
-                    <th>Depth</th>
-                    <th>Mag</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>0</td>
-                    <td>es2017eugju</td>
-                    <td>2017-03-09</td>
-                    <td>23:44:06</td>
-                    <td>28.5346</td>
-                    <td>-17.8349</td>
-                    <td>26.0</td>
-                    <td/>
-                    <td>1.6</td>
-                    <td>4</td>
-                    <td>NE FUENCALIENTE DE LA PALMA.IL</td>
-                    <td>2017-03-09 23:44:06</td>
-                    <td>1489103046000000000</td>
-                    <td>0.0</td>
-                    <td>0</td>
-                    <td>Interchange (18km&gt;x&gt;28km)</td>
-                    <td>1</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>es2017euhlh</td>
-                    <td>2017-03-10</td>
-                    <td>00:16:10</td>
-                    <td>28.5491</td>
-                    <td>-17.8459</td>
-                    <td>27.0</td>
-                    <td/>
-                    <td>2.0</td>
-                    <td>4</td>
-                    <td>N FUENCALIENTE DE LA PALMA.ILP</td>
-                    <td>2017-03-10 00:16:10</td>
-                    <td>1489104970000000000</td>
-                    <td>0.0</td>
-                    <td>0</td>
-                    <td>Interchange (18km&gt;x&gt;28km)</td>
-                    <td>2</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>es2017cpaoh</td>
-                    <td>2017-03-10</td>
-                    <td>00:16:11</td>
-                    <td>28.5008</td>
-                    <td>-17.8863</td>
-                    <td>20.0</td>
-                    <td/>
-                    <td>2.1</td>
-                    <td>4</td>
-                    <td>W LOS CANARIOS.ILP</td>
-                    <td>2017-03-10 00:16:11</td>
-                    <td>1489104971000000000</td>
-                    <td>0.0</td>
-                    <td>0</td>
-                    <td>Interchange (18km&gt;x&gt;28km)</td>
-                    <td>2</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>es2017eunnk</td>
-                    <td>2017-03-10</td>
-                    <td>03:20:26</td>
-                    <td>28.5204</td>
-                    <td>-17.8657</td>
-                    <td>30.0</td>
-                    <td/>
-                    <td>1.6</td>
-                    <td>4</td>
-                    <td>NW FUENCALIENTE DE LA PALMA.IL</td>
-                    <td>2017-03-10 03:20:26</td>
-                    <td>1489116026000000000</td>
-                    <td>0.0</td>
-                    <td>0</td>
-                    <td>Deep (&gt;28km)</td>
-                    <td>1</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>es2017kajei</td>
-                    <td>2017-08-21</td>
-                    <td>02:06:55</td>
-                    <td>28.5985</td>
-                    <td>-17.7156</td>
-                    <td>0.0</td>
-                    <td/>
-                    <td>1.6</td>
-                    <td>4</td>
-                    <td>E EL PUEBLO.ILP</td>
-                    <td>2017-08-21 02:06:55</td>
-                    <td>1503281215000000000</td>
-                    <td>0.0</td>
-                    <td>0</td>
-                    <td>Shallow (&lt;18km)</td>
-                    <td>1</td>
-                  </tr>
-                </tbody>
-              </table>
-            </table-wrap>
-          </sec>
-        </sec>
-        <sec id="cell-59c54f01" specific-use="notebook-code">
-          <sec id="59c54f01-output-0" specific-use="notebook-output">
-            <preformat>0       2017-03-09 23:44:06
+  <sec id="f48a68e0" specific-use="notebook-code">
+  <sec id="f48a68e0-output-0" specific-use="notebook-output">
+  <table-wrap>
+    <table border="1">
+      <thead>
+        <tr style="text-align: right;">
+          <th></th>
+          <th>Event</th>
+          <th>Date</th>
+          <th>Time</th>
+          <th>Latitude</th>
+          <th>Longitude</th>
+          <th>Depth(km)</th>
+          <th>Intensity</th>
+          <th>Magnitude</th>
+          <th>Type Mag</th>
+          <th>Location</th>
+          <th>DateTime</th>
+          <th>Timestamp</th>
+          <th>Swarm</th>
+          <th>Phase</th>
+          <th>Depth</th>
+          <th>Mag</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>0</td>
+          <td>es2017eugju</td>
+          <td>2017-03-09</td>
+          <td>23:44:06</td>
+          <td>28.5346</td>
+          <td>-17.8349</td>
+          <td>26.0</td>
+          <td></td>
+          <td>1.6</td>
+          <td>4</td>
+          <td>NE FUENCALIENTE DE LA PALMA.IL</td>
+          <td>2017-03-09 23:44:06</td>
+          <td>1489103046000000000</td>
+          <td>0.0</td>
+          <td>0</td>
+          <td>Interchange (18km&gt;x&gt;28km)</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>es2017euhlh</td>
+          <td>2017-03-10</td>
+          <td>00:16:10</td>
+          <td>28.5491</td>
+          <td>-17.8459</td>
+          <td>27.0</td>
+          <td></td>
+          <td>2.0</td>
+          <td>4</td>
+          <td>N FUENCALIENTE DE LA PALMA.ILP</td>
+          <td>2017-03-10 00:16:10</td>
+          <td>1489104970000000000</td>
+          <td>0.0</td>
+          <td>0</td>
+          <td>Interchange (18km&gt;x&gt;28km)</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>es2017cpaoh</td>
+          <td>2017-03-10</td>
+          <td>00:16:11</td>
+          <td>28.5008</td>
+          <td>-17.8863</td>
+          <td>20.0</td>
+          <td></td>
+          <td>2.1</td>
+          <td>4</td>
+          <td>W LOS CANARIOS.ILP</td>
+          <td>2017-03-10 00:16:11</td>
+          <td>1489104971000000000</td>
+          <td>0.0</td>
+          <td>0</td>
+          <td>Interchange (18km&gt;x&gt;28km)</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>es2017eunnk</td>
+          <td>2017-03-10</td>
+          <td>03:20:26</td>
+          <td>28.5204</td>
+          <td>-17.8657</td>
+          <td>30.0</td>
+          <td></td>
+          <td>1.6</td>
+          <td>4</td>
+          <td>NW FUENCALIENTE DE LA PALMA.IL</td>
+          <td>2017-03-10 03:20:26</td>
+          <td>1489116026000000000</td>
+          <td>0.0</td>
+          <td>0</td>
+          <td>Deep (&gt;28km)</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>es2017kajei</td>
+          <td>2017-08-21</td>
+          <td>02:06:55</td>
+          <td>28.5985</td>
+          <td>-17.7156</td>
+          <td>0.0</td>
+          <td></td>
+          <td>1.6</td>
+          <td>4</td>
+          <td>E EL PUEBLO.ILP</td>
+          <td>2017-08-21 02:06:55</td>
+          <td>1503281215000000000</td>
+          <td>0.0</td>
+          <td>0</td>
+          <td>Shallow (&lt;18km)</td>
+          <td>1</td>
+        </tr>
+      </tbody>
+    </table>
+  </table-wrap>
+  </sec>
+  </sec>
+  <sec id="cell-59c54f01" specific-use="notebook-code">
+  <sec id="59c54f01-output-0" specific-use="notebook-output">
+  <preformat>0       2017-03-09 23:44:06
 1       2017-03-10 00:16:10
 2       2017-03-10 00:16:11
 3       2017-03-10 03:20:26
@@ -277,407 +666,60 @@ for indexing. Your abstract should:</p>
 11345   2022-09-14 02:03:08
 11346   2022-09-14 03:58:59
 Name: DateTime, Length: 11347, dtype: datetime64[ns]</preformat>
-          </sec>
-        </sec>
-        <sec id="cell-fig-timeline" specific-use="notebook-code">
-          <sec id="cell-fig-timeline-output-0" specific-use="notebook-output">
-            <fig id="fig-timeline">
-              <caption>
-                <p>Figure 1: Earthquake data over time (n=5465) to
+  </sec>
+  </sec>
+  <sec id="cell-fig-timeline" specific-use="notebook-code">
+  <sec id="cell-fig-timeline-output-0" specific-use="notebook-output">
+  <fig id="fig-timeline">
+    <caption><p>Figure 1: Earthquake data over time (n=5465) to
     understand their distributions spatially, by depth, by magnitude and
-    in time.</p>
-              </caption>
-              <graphic mimetype="image" mime-subtype="png" xlink:href="visualization-figure-creation-seaborn_files/figure-jats/fig-timeline-output-1.png"/>
-            </fig>
-          </sec>
-        </sec>
-      </sec>
-      <sec id="cumulative-distrubtion-plots">
-        <title>Cumulative Distrubtion Plots</title>
-        <sec id="cell-9fc0146a" specific-use="notebook-code">
-          <sec id="9fc0146a-output-0" specific-use="notebook-output">
-            <graphic mimetype="image" mime-subtype="png" xlink:href="visualization-figure-creation-seaborn_files/figure-jats/cell-9-output-1.png"/>
-          </sec>
-        </sec>
-        <sec id="b1fc42cc" specific-use="notebook-code">
-          <sec id="b1fc42cc-output-0" specific-use="notebook-output">
-            <graphic mimetype="image" mime-subtype="png" xlink:href="visualization-figure-creation-seaborn_files/figure-jats/cell-10-output-1.png"/>
-          </sec>
-        </sec>
-        <sec id="cell-19e275d7" specific-use="notebook-code">
-          <sec id="19e275d7-output-0" specific-use="notebook-output">
-            <graphic mimetype="image" mime-subtype="png" xlink:href="visualization-figure-creation-seaborn_files/figure-jats/cell-11-output-1.png"/>
-          </sec>
-        </sec>
-        <sec id="cell-4bcecbd4" specific-use="notebook-code">
-          <sec id="4bcecbd4-output-0" specific-use="notebook-output">
-            <graphic mimetype="image" mime-subtype="png" xlink:href="visualization-figure-creation-seaborn_files/figure-jats/cell-12-output-1.png"/>
-          </sec>
-        </sec>
-        <sec id="cell-012f5878" specific-use="notebook-code">
-          <sec id="012f5878-output-0" specific-use="notebook-output">
-            <graphic mimetype="image" mime-subtype="png" xlink:href="visualization-figure-creation-seaborn_files/figure-jats/cell-13-output-1.png"/>
-          </sec>
-        </sec>
-        <sec id="cell-32e0996c" specific-use="notebook-code">
-          <sec id="32e0996c-output-0" specific-use="notebook-output">
-            <graphic mimetype="image" mime-subtype="png" xlink:href="visualization-figure-creation-seaborn_files/figure-jats/cell-14-output-1.png"/>
-          </sec>
-        </sec>
-      </sec>
-    </body>
-    <back>
+    in time.</p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="visualization-figure-creation-seaborn_files/figure-jats/fig-timeline-output-1.png" />
+  </fig>
+  </sec>
+  </sec>
+</sec>
+<sec id="cumulative-distrubtion-plots">
+  <title>Cumulative Distrubtion Plots</title>
+  <sec id="cell-9fc0146a" specific-use="notebook-code">
+  <sec id="9fc0146a-output-0" specific-use="notebook-output">
+  <graphic mimetype="image" mime-subtype="png" xlink:href="visualization-figure-creation-seaborn_files/figure-jats/cell-9-output-1.png" />
+  </sec>
+  </sec>
+  <sec id="b1fc42cc" specific-use="notebook-code">
+  <sec id="b1fc42cc-output-0" specific-use="notebook-output">
+  <graphic mimetype="image" mime-subtype="png" xlink:href="visualization-figure-creation-seaborn_files/figure-jats/cell-10-output-1.png" />
+  </sec>
+  </sec>
+  <sec id="cell-19e275d7" specific-use="notebook-code">
+  <sec id="19e275d7-output-0" specific-use="notebook-output">
+  <graphic mimetype="image" mime-subtype="png" xlink:href="visualization-figure-creation-seaborn_files/figure-jats/cell-11-output-1.png" />
+  </sec>
+  </sec>
+  <sec id="cell-4bcecbd4" specific-use="notebook-code">
+  <sec id="4bcecbd4-output-0" specific-use="notebook-output">
+  <graphic mimetype="image" mime-subtype="png" xlink:href="visualization-figure-creation-seaborn_files/figure-jats/cell-12-output-1.png" />
+  </sec>
+  </sec>
+  <sec id="cell-012f5878" specific-use="notebook-code">
+  <sec id="012f5878-output-0" specific-use="notebook-output">
+  <graphic mimetype="image" mime-subtype="png" xlink:href="visualization-figure-creation-seaborn_files/figure-jats/cell-13-output-1.png" />
+  </sec>
+  </sec>
+  <sec id="cell-32e0996c" specific-use="notebook-code">
+  <sec id="32e0996c-output-0" specific-use="notebook-output">
+  <graphic mimetype="image" mime-subtype="png" xlink:href="visualization-figure-creation-seaborn_files/figure-jats/cell-14-output-1.png" />
+  </sec>
+  </sec>
+</sec>
+</body>
+
+
+
+<back>
 </back>
-  </sub-article>
-  <sub-article article-type="notebook">
-    <front-stub>
-      <title-group>
-        <article-title>Data Screening</article-title>
-      </title-group>
-      <contrib-group>
-        <contrib contrib-type="author">
-          <contrib-id contrib-id-type="orcid">0000-0002-0760-5497</contrib-id>
-          <name>
-            <surname>Purves</surname>
-            <given-names>Steve</given-names>
-          </name>
-          <string-name>Steve Purves</string-name>
-        </contrib>
-      </contrib-group>
-    </front-stub>
-    <body>
-      <p>Load and review the data, check that dates are loaded properly and
-filter data down to the events in La Palma only. The dataset itself
-contains all recent IGN earthquake data for Spanish territory.</p>
-      <sec id="ba38c3c1-51d7-48d9-8056-c23a0bbfcd18" specific-use="notebook-code">
-        <sec id="ba38c3c1-51d7-48d9-8056-c23a0bbfcd18-output-0" specific-use="notebook-output">
-          <table-wrap>
-            <table border="1">
-              <thead>
-                <tr style="text-align: right;">
-                  <th/>
-                  <th>Event</th>
-                  <th>Date</th>
-                  <th>Time</th>
-                  <th>Latitude</th>
-                  <th>Longitude</th>
-                  <th>Depth(km)</th>
-                  <th>Intensity</th>
-                  <th>Magnitude</th>
-                  <th>Type Mag</th>
-                  <th>Location</th>
-                  <th>DateTime</th>
-                  <th>Timestamp</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>0</td>
-                  <td>es2017aaaga</td>
-                  <td>2017-01-01</td>
-                  <td>00:48:55</td>
-                  <td>36.6765</td>
-                  <td>-11.2736</td>
-                  <td>0.0</td>
-                  <td/>
-                  <td>2.8</td>
-                  <td>6</td>
-                  <td>SW CABO DE SAN VICENTE</td>
-                  <td>2017-01-01 00:48:55</td>
-                  <td>1483231735000000000</td>
-                </tr>
-                <tr>
-                  <td>1</td>
-                  <td>es2017aaakn</td>
-                  <td>2017-01-01</td>
-                  <td>01:28:17</td>
-                  <td>28.1119</td>
-                  <td>-16.2225</td>
-                  <td>21.0</td>
-                  <td/>
-                  <td>0.9</td>
-                  <td>4</td>
-                  <td>ATLÁNTICO-CANARIAS</td>
-                  <td>2017-01-01 01:28:17</td>
-                  <td>1483234097000000000</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>es2017aaang</td>
-                  <td>2017-01-01</td>
-                  <td>01:49:08</td>
-                  <td>42.0648</td>
-                  <td>-7.8471</td>
-                  <td>22.0</td>
-                  <td/>
-                  <td>2.0</td>
-                  <td>4</td>
-                  <td>SW RAIRIZ DE VEIGA.OU</td>
-                  <td>2017-01-01 01:49:08</td>
-                  <td>1483235348000000000</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>es2017aabdd</td>
-                  <td>2017-01-01</td>
-                  <td>02:36:20</td>
-                  <td>38.3826</td>
-                  <td>-9.3767</td>
-                  <td>11.0</td>
-                  <td/>
-                  <td>2.2</td>
-                  <td>4</td>
-                  <td>ATLÁNTICO-PORTUGAL</td>
-                  <td>2017-01-01 02:36:20</td>
-                  <td>1483238180000000000</td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td>es2017aabkh</td>
-                  <td>2017-01-01</td>
-                  <td>03:35:03</td>
-                  <td>36.2492</td>
-                  <td>-7.8227</td>
-                  <td>13.0</td>
-                  <td/>
-                  <td>1.9</td>
-                  <td>4</td>
-                  <td>GOLFO DE CÁDIZ</td>
-                  <td>2017-01-01 03:35:03</td>
-                  <td>1483241703000000000</td>
-                </tr>
-              </tbody>
-            </table>
-          </table-wrap>
-        </sec>
-      </sec>
-      <sec id="d81abbcf-d7f2-43e8-ae0c-5f6ce44e6046" specific-use="notebook-code">
-        <sec id="d81abbcf-d7f2-43e8-ae0c-5f6ce44e6046-output-0" specific-use="notebook-output">
-          <table-wrap>
-            <table border="1">
-              <thead>
-                <tr style="text-align: right;">
-                  <th/>
-                  <th>Latitude</th>
-                  <th>Longitude</th>
-                  <th>Depth(km)</th>
-                  <th>Magnitude</th>
-                  <th>Type Mag</th>
-                  <th>Timestamp</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>count</td>
-                  <td>58036.000000</td>
-                  <td>58036.000000</td>
-                  <td>58036.000000</td>
-                  <td>58036.000000</td>
-                  <td>58036.000000</td>
-                  <td>5.803600e+04</td>
-                </tr>
-                <tr>
-                  <td>mean</td>
-                  <td>34.806854</td>
-                  <td>-8.356855</td>
-                  <td>11.450831</td>
-                  <td>1.881846</td>
-                  <td>4.031153</td>
-                  <td>1.596182e+18</td>
-                </tr>
-                <tr>
-                  <td>std</td>
-                  <td>5.263327</td>
-                  <td>7.119341</td>
-                  <td>11.111965</td>
-                  <td>0.763577</td>
-                  <td>0.291332</td>
-                  <td>4.954865e+16</td>
-                </tr>
-                <tr>
-                  <td>min</td>
-                  <td>26.349300</td>
-                  <td>-19.930400</td>
-                  <td>0.000000</td>
-                  <td>-0.500000</td>
-                  <td>3.000000</td>
-                  <td>1.483232e+18</td>
-                </tr>
-                <tr>
-                  <td>25%</td>
-                  <td>28.563800</td>
-                  <td>-16.672325</td>
-                  <td>3.000000</td>
-                  <td>1.400000</td>
-                  <td>4.000000</td>
-                  <td>1.559327e+18</td>
-                </tr>
-                <tr>
-                  <td>50%</td>
-                  <td>35.989200</td>
-                  <td>-4.785250</td>
-                  <td>10.000000</td>
-                  <td>1.800000</td>
-                  <td>4.000000</td>
-                  <td>1.612319e+18</td>
-                </tr>
-                <tr>
-                  <td>75%</td>
-                  <td>37.890700</td>
-                  <td>-3.234500</td>
-                  <td>14.300000</td>
-                  <td>2.400000</td>
-                  <td>4.000000</td>
-                  <td>1.635568e+18</td>
-                </tr>
-                <tr>
-                  <td>max</td>
-                  <td>44.985000</td>
-                  <td>5.996600</td>
-                  <td>115.000000</td>
-                  <td>6.000000</td>
-                  <td>6.000000</td>
-                  <td>1.663232e+18</td>
-                </tr>
-              </tbody>
-            </table>
-          </table-wrap>
-        </sec>
-      </sec>
-      <sec id="cell-8f6c52f4-b28d-4c22-88c7-e1b17298cae7" specific-use="notebook-code">
-        <sec id="8f6c52f4-b28d-4c22-88c7-e1b17298cae7-output-0" specific-use="notebook-output">
-          <graphic mimetype="image" mime-subtype="png" xlink:href="data-screening_files/figure-jats/cell-5-output-1.png"/>
-        </sec>
-      </sec>
-      <sec id="filter-down-to-la-palma-events-only">
-        <title>Filter down to La Palma events only</title>
-        <p>Also some rows seem to be missing depth measurements, (see
-  differences in the <bold>count</bold> for columns above) - take only
-  rows with valid depths</p>
-        <sec id="c34e47c1-c9cb-4207-978c-292333863e9b" specific-use="notebook-code">
-          <sec id="c34e47c1-c9cb-4207-978c-292333863e9b-output-0" specific-use="notebook-output">
-            <table-wrap>
-              <table border="1">
-                <thead>
-                  <tr style="text-align: right;">
-                    <th/>
-                    <th>Latitude</th>
-                    <th>Longitude</th>
-                    <th>Depth(km)</th>
-                    <th>Magnitude</th>
-                    <th>Type Mag</th>
-                    <th>Timestamp</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>count</td>
-                    <td>11347.000000</td>
-                    <td>11347.000000</td>
-                    <td>11347.000000</td>
-                    <td>11347.000000</td>
-                    <td>11347.0</td>
-                    <td>1.134700e+04</td>
-                  </tr>
-                  <tr>
-                    <td>mean</td>
-                    <td>28.568893</td>
-                    <td>-17.844062</td>
-                    <td>14.089345</td>
-                    <td>2.432423</td>
-                    <td>4.0</td>
-                    <td>1.633359e+18</td>
-                  </tr>
-                  <tr>
-                    <td>std</td>
-                    <td>0.021899</td>
-                    <td>0.027345</td>
-                    <td>8.624787</td>
-                    <td>0.705282</td>
-                    <td>0.0</td>
-                    <td>2.007970e+16</td>
-                  </tr>
-                  <tr>
-                    <td>min</td>
-                    <td>28.310200</td>
-                    <td>-17.995800</td>
-                    <td>0.000000</td>
-                    <td>0.200000</td>
-                    <td>4.0</td>
-                    <td>1.489103e+18</td>
-                  </tr>
-                  <tr>
-                    <td>25%</td>
-                    <td>28.558000</td>
-                    <td>-17.854100</td>
-                    <td>10.100000</td>
-                    <td>1.900000</td>
-                    <td>4.0</td>
-                    <td>1.633777e+18</td>
-                  </tr>
-                  <tr>
-                    <td>50%</td>
-                    <td>28.564000</td>
-                    <td>-17.838700</td>
-                    <td>11.300000</td>
-                    <td>2.600000</td>
-                    <td>4.0</td>
-                    <td>1.635671e+18</td>
-                  </tr>
-                  <tr>
-                    <td>75%</td>
-                    <td>28.574300</td>
-                    <td>-17.829700</td>
-                    <td>13.900000</td>
-                    <td>2.900000</td>
-                    <td>4.0</td>
-                    <td>1.638294e+18</td>
-                  </tr>
-                  <tr>
-                    <td>max</td>
-                    <td>28.697800</td>
-                    <td>-17.705700</td>
-                    <td>46.900000</td>
-                    <td>5.100000</td>
-                    <td>4.0</td>
-                    <td>1.663128e+18</td>
-                  </tr>
-                </tbody>
-              </table>
-            </table-wrap>
-          </sec>
-        </sec>
-        <sec id="cell-306ba432-daa7-4126-9b5a-689e1ad41e3a" specific-use="notebook-code">
-          <sec id="306ba432-daa7-4126-9b5a-689e1ad41e3a-output-0" specific-use="notebook-output">
-            <graphic mimetype="image" mime-subtype="png" xlink:href="data-screening_files/figure-jats/cell-7-output-1.png"/>
-          </sec>
-        </sec>
-      </sec>
-      <sec id="spatial-plot">
-        <title>Spatial Plot</title>
-        <p>Scatter plot the spatial locations of events</p>
-        <sec id="ed0bda66-c063-47bd-a12e-c688543845b7" specific-use="notebook-code">
-          <sec id="ed0bda66-c063-47bd-a12e-c688543845b7-output-0" specific-use="notebook-output">
-            <preformat>/opt/anaconda3/envs/py3/lib/python3.9/site-packages/matplotlib/collections.py:967: RuntimeWarning: invalid value encountered in sqrt
-  scale = np.sqrt(self._sizes) * dpi / 72.0 * self._factor</preformat>
-          </sec>
-          <sec id="ed0bda66-c063-47bd-a12e-c688543845b7-output-1" specific-use="notebook-output">
-            <graphic mimetype="image" mime-subtype="png" xlink:href="data-screening_files/figure-jats/cell-8-output-2.png"/>
-          </sec>
-        </sec>
-        <sec id="timeline-plot">
-          <title>Timeline Plot</title>
-          <p>Scatter plot the event time series and look for any quantization
-    issues. Have times &amp; dates been loaded correctly?</p>
-          <sec id="cell-58a022c7-f34c-499d-a749-aa01f0e1b5db" specific-use="notebook-code">
-            <sec id="58a022c7-f34c-499d-a749-aa01f0e1b5db-output-0" specific-use="notebook-output">
-              <graphic mimetype="image" mime-subtype="png" xlink:href="data-screening_files/figure-jats/cell-9-output-1.png"/>
-            </sec>
-          </sec>
-        </sec>
-      </sec>
-    </body>
-    <back>
-</back>
-  </sub-article>
+
+
+</sub-article>
+
 </article>
