@@ -70,10 +70,10 @@ administration</role>
 <corresp id="cor-1">steve@curvenote.com</corresp>
 </author-notes>
 
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2023-05-26">
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2023-06-02">
 <year>2023</year>
-<month>5</month>
-<day>26</day>
+<month>6</month>
+<day>2</day>
 </pub-date>
 
 
@@ -164,6 +164,8 @@ Nacional (IGN). …</p>
   <p><xref alt="Table 1" rid="tbl-history">Table 1</xref> summarises the
   eruptions recorded since the colonization of the islands by Europeans
   in the late 1400s.</p>
+  <p>Data and methods are discussed in
+  <xref alt="Section 2" rid="sec-data-methods">Section 2</xref>.</p>
   <p>Let <inline-formula><alternatives>
   <tex-math><![CDATA[x]]></tex-math>
   <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>x</mml:mi></mml:math></alternatives></inline-formula>
@@ -200,12 +202,22 @@ Nacional (IGN). …</p>
   <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mfrac><mml:mn>1</mml:mn><mml:mn>79.8</mml:mn></mml:mfrac></mml:math></alternatives></inline-formula>.</p>
   <p>Studies of the magma systems feeding the volcano, such as Marrero
   et al.
-  (<xref alt="2019" rid="ref-marrero2019" ref-type="bibr">2019</xref>)
-  has proposed that there are two main magma reservoirs feeding the
+  (<xref alt="2019" rid="ref-marrero2019" ref-type="bibr">2019</xref>),
+  have proposed that there are two main magma reservoirs feeding the
   Cumbre Vieja volcano; one in the mantle (30-40km depth) which charges
   and in turn feeds a shallower crustal reservoir (10-20km depth).</p>
-  <p>Data and methods are discussed in
-  <xref alt="Section 2" rid="sec-data-methods">Section 2</xref>.</p>
+  <p>A prior study of the magma systems feeding the volcano proposed
+  that there are two main magma reservoirs feeding the Cumbre Vieja
+  volcano
+  (<xref alt="Marrero et al. 2019" rid="ref-marrero2019" ref-type="bibr">Marrero
+  et al. 2019</xref>).</p>
+  <fig id="fig-spatial-plot">
+    <caption><p>Figure 3: Locations of earthquakes on La Palma since
+    2017.</p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-spatial-plot-output-1.png" />
+  </fig>
+  <p><xref alt="Figure 3" rid="fig-spatial-plot">Figure 3</xref> shows
+  the location of recent Earthquakes on La Palma.</p>
 </sec>
 <sec id="sec-data-methods">
   <title>2 Data &amp; Methods</title>
@@ -300,8 +312,11 @@ Nacional (IGN). …</p>
 </front-stub>
 
 <body>
+<sec id="cell-1-nb-article" specific-use="notebook-content">
 <sec id="introduction-nb-article">
   <title>1 Introduction</title>
+  </sec>
+  <sec id="cell-2-nb-article" specific-use="notebook-content">
   <fig id="fig-map-nb-article">
     <caption><p>Figure 1: Map of La Palma</p></caption>
     <graphic mimetype="image" mime-subtype="png" xlink:href="images/la-palma-map.png" />
@@ -309,6 +324,8 @@ Nacional (IGN). …</p>
   <p>La Palma is one of the west most islands in the Volcanic
   Archipelago of the Canary Islands
   (<xref alt="Figure 1" rid="fig-map-nb-article">Figure 1</xref>).</p>
+  </sec>
+  <sec id="cell-3-nb-article" specific-use="notebook-content">
   <table-wrap>
     <caption>
       <p>Table 1: Recent historic eruptions on La Palma</p>
@@ -359,6 +376,12 @@ Nacional (IGN). …</p>
   <p><xref alt="Table 1" rid="tbl-history-nb-article">Table 1</xref> summarises the
   eruptions recorded since the colonization of the islands by Europeans
   in the late 1400s.</p>
+  </sec>
+  <sec id="cell-4-nb-article" specific-use="notebook-content">
+  <p>Data and methods are discussed in
+  <xref alt="Section 2" rid="sec-data-methods-nb-article">Section 2</xref>.</p>
+  </sec>
+  <sec id="cell-5-nb-article" specific-use="notebook-content">
   <p>Let <inline-formula><alternatives>
   <tex-math><![CDATA[x]]></tex-math>
   <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>x</mml:mi></mml:math></alternatives></inline-formula>
@@ -381,7 +404,8 @@ Nacional (IGN). …</p>
   <tex-math><![CDATA[t]]></tex-math>
   <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>t</mml:mi></mml:math></alternatives></inline-formula>
   years can be calculated.</p>
-  <sec id="cell-5-nb-article" specific-use="notebook-code">
+  </sec>
+  <sec id="cell-6-nb-article" specific-use="notebook-code">
   <code language="python">import matplotlib.pyplot as plt
 import numpy as np
 eruptions = [1492, 1585, 1646, 1677, 1712, 1949, 1971, 2021]</code>
@@ -400,13 +424,14 @@ plt.show()</code>
   </fig>
   </sec>
   </sec>
-  <sec id="cell-7-nb-article" specific-use="notebook-code">
+  <sec id="cell-8-nb-article" specific-use="notebook-code">
   <code language="python">avg_years_between_eruptions = np.mean(np.diff(eruptions[:-1]))
 avg_years_between_eruptions</code>
-  <sec id="cell-7-output-0-nb-article" specific-use="notebook-output">
+  <sec id="cell-8-output-0-nb-article" specific-use="notebook-output">
   <preformat>79.83333333333333</preformat>
   </sec>
   </sec>
+  <sec id="cell-9-nb-article" specific-use="notebook-content">
   <p>Based on the eruptions up to and including 1971, we would estimate
   <inline-formula><alternatives>
   <tex-math><![CDATA[\lambda]]></tex-math>
@@ -414,23 +439,59 @@ avg_years_between_eruptions</code>
   to be <inline-formula><alternatives>
   <tex-math><![CDATA[\frac{1}{79.8}]]></tex-math>
   <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mfrac><mml:mn>1</mml:mn><mml:mn>79.8</mml:mn></mml:mfrac></mml:math></alternatives></inline-formula>.</p>
+  </sec>
+  <sec id="cell-10-nb-article" specific-use="notebook-content">
   <p>Studies of the magma systems feeding the volcano, such as Marrero
   et al.
-  (<xref alt="2019" rid="ref-marrero2019-nb-article" ref-type="bibr">2019</xref>)
-  has proposed that there are two main magma reservoirs feeding the
+  (<xref alt="2019" rid="ref-marrero2019-nb-article" ref-type="bibr">2019</xref>),
+  have proposed that there are two main magma reservoirs feeding the
   Cumbre Vieja volcano; one in the mantle (30-40km depth) which charges
   and in turn feeds a shallower crustal reservoir (10-20km depth).</p>
-  <p>Data and methods are discussed in
-  <xref alt="Section 2" rid="sec-data-methods-nb-article">Section 2</xref>.</p>
+  </sec>
+  <sec id="cell-11-nb-article" specific-use="notebook-content">
+  <p>A prior study of the magma systems feeding the volcano proposed
+  that there are two main magma reservoirs feeding the Cumbre Vieja
+  volcano
+  (<xref alt="Marrero et al. 2019" rid="ref-marrero2019-nb-article" ref-type="bibr">Marrero
+  et al. 2019</xref>).</p>
+  </sec>
+  <sec id="cell-12-nb-article" specific-use="notebook-content">
+  <sec id="cell-fig-spatial-plot-nb-article" specific-use="notebook-code">
+  <code language="python">from matplotlib import colormaps
+cmap = colormaps['viridis_r']
+ax = df.plot.scatter(x=&quot;Longitude&quot;, y=&quot;Latitude&quot;, 
+                     s=40-df[&quot;Depth(km)&quot;], c=df[&quot;Magnitude&quot;], 
+                     figsize=(12,10), grid=&quot;on&quot;, cmap=cmap)
+colorbar = ax.collections[0].colorbar
+colorbar.set_label(&quot;Magnitude&quot;)
+
+plt.show()</code>
+  <sec id="cell-fig-spatial-plot-output-0-nb-article" specific-use="notebook-output">
+  <fig id="fig-spatial-plot-nb-article">
+    <caption><p>Figure 3: Locations of earthquakes on La Palma since
+    2017.</p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-spatial-plot-output-1.png" />
+  </fig>
+  </sec>
+  </sec>
+  <p><xref alt="Figure 3" rid="fig-spatial-plot-nb-article">Figure 3</xref> shows
+  the location of recent Earthquakes on La Palma.</p>
+  </sec>
+  <sec id="cell-13-nb-article" specific-use="notebook-content">
 </sec>
 <sec id="sec-data-methods-nb-article">
   <title>2 Data &amp; Methods</title>
+  </sec>
+  <sec id="cell-14-nb-article" specific-use="notebook-content">
 </sec>
 <sec id="conclusion-nb-article">
   <title>3 Conclusion</title>
+  </sec>
+  <sec id="cell-15-nb-article" specific-use="notebook-content">
 </sec>
 <sec id="references-nb-article">
   <title>References</title>
+  </sec>
 </sec>
 </body>
 
@@ -480,9 +541,11 @@ avg_years_between_eruptions</code>
 </front-stub>
 
 <body>
+<sec id="cell-96cd123b-e010-4778-9afa-9ca125ef50cc-nb-1" specific-use="notebook-content">
 <p>Load and review the data, check that dates are loaded properly and
 filter data down to the events in La Palma only. The dataset itself
 contains all recent IGN earthquake data for Spanish territory.</p>
+</sec>
 <sec id="cell-0e75ded9-f2dc-40ca-884b-d124d0e37ee4-nb-1" specific-use="notebook-code">
 <code language="python">import pandas as pd
 import matplotlib.pyplot as plt</code>
@@ -698,11 +761,13 @@ df.head()</code>
 <graphic mimetype="image" mime-subtype="png" xlink:href="data-screening_files/figure-jats/cell-5-output-1.png" />
 </sec>
 </sec>
+<sec id="af76febd-11cd-4927-8476-5d8258ede326-nb-1" specific-use="notebook-content">
 <sec id="filter-down-to-la-palma-events-only-nb-1">
   <title>Filter down to La Palma events only</title>
   <p>Also some rows seem to be missing depth measurements, (see
   differences in the <bold>count</bold> for columns above) - take only
   rows with valid depths</p>
+  </sec>
   <sec id="c34e47c1-c9cb-4207-978c-292333863e9b-nb-1" specific-use="notebook-code">
   <code language="python">df = df[(df['Latitude'] &lt; 28.7) &amp; (df['Latitude'] &gt; 28.3) &amp; (df['Longitude'] &lt; -17.7) &amp; (df['Longitude'] &gt; -18)]
 df = df[df['Depth(km)'].notna()]
@@ -814,26 +879,36 @@ _=df[&quot;Depth(km)&quot;].plot.kde()</code>
   <graphic mimetype="image" mime-subtype="png" xlink:href="data-screening_files/figure-jats/cell-7-output-1.png" />
   </sec>
   </sec>
+  <sec id="cell-1bf2e599-12d6-40e9-bd99-db68ae6e72f5-nb-1" specific-use="notebook-content">
 </sec>
 <sec id="spatial-plot-nb-1">
   <title>Spatial Plot</title>
   <p>Scatter plot the spatial locations of events</p>
-  <sec id="ed0bda66-c063-47bd-a12e-c688543845b7-nb-1" specific-use="notebook-code">
+  </sec>
+  <sec id="cell-fig-spatial-plot-nb-1" specific-use="notebook-code">
   <code language="python">from matplotlib import colormaps
 cmap = colormaps['viridis_r']
-ax = df.plot.scatter(x=&quot;Longitude&quot;, y=&quot;Latitude&quot;, s=40-df[&quot;Depth(km)&quot;], c=df[&quot;Magnitude&quot;], figsize=(12,10), grid=&quot;on&quot;, cmap=cmap)</code>
-  <sec id="ed0bda66-c063-47bd-a12e-c688543845b7-output-0-nb-1" specific-use="notebook-output">
-  <preformat>/opt/anaconda3/envs/py3/lib/python3.9/site-packages/matplotlib/collections.py:967: RuntimeWarning: invalid value encountered in sqrt
-  scale = np.sqrt(self._sizes) * dpi / 72.0 * self._factor</preformat>
+ax = df.plot.scatter(x=&quot;Longitude&quot;, y=&quot;Latitude&quot;, 
+                     s=40-df[&quot;Depth(km)&quot;], c=df[&quot;Magnitude&quot;], 
+                     figsize=(12,10), grid=&quot;on&quot;, cmap=cmap)
+colorbar = ax.collections[0].colorbar
+colorbar.set_label(&quot;Magnitude&quot;)
+
+plt.show()</code>
+  <sec id="cell-fig-spatial-plot-output-0-nb-1" specific-use="notebook-output">
+  <fig id="fig-spatial-plot-nb-1">
+    <caption><p>Figure 1: Locations of earthquakes on La Palma since
+    2017.</p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="data-screening_files/figure-jats/fig-spatial-plot-output-1.png" />
+  </fig>
   </sec>
-  <sec id="ed0bda66-c063-47bd-a12e-c688543845b7-output-1-nb-1" specific-use="notebook-output">
-  <graphic mimetype="image" mime-subtype="png" xlink:href="data-screening_files/figure-jats/cell-8-output-2.png" />
   </sec>
-  </sec>
+  <sec id="c55cd6b8-7e01-4c2d-aa71-1649ca8aee01-nb-1" specific-use="notebook-content">
   <sec id="timeline-plot-nb-1">
     <title>Timeline Plot</title>
     <p>Scatter plot the event time series and look for any quantization
     issues. Have times &amp; dates been loaded correctly?</p>
+    </sec>
     <sec id="cell-58a022c7-f34c-499d-a749-aa01f0e1b5db-nb-1" specific-use="notebook-code">
     <code language="python">ax = df.plot.scatter(x='DateTime', y='Depth(km)', figsize=(20,8))
 ax.set_ylim(50,0);</code>
