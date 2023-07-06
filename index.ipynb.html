@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
     <meta charset="utf-8">
-    <meta name="generator" content="quarto-1.4.176">
+    <meta name="generator" content="quarto-1.4.192">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -137,10 +137,10 @@
 <meta name="citation_keywords" content="La Palma,Earthquakes">
 <meta name="citation_author" content="Steve Purves">
 <meta name="citation_author" content="Rowan Cockett">
-<meta name="citation_publication_date" content="2023-06-30">
-<meta name="citation_cover_date" content="2023-06-30">
+<meta name="citation_publication_date" content="2023-07-06">
+<meta name="citation_cover_date" content="2023-07-06">
 <meta name="citation_year" content="2023">
-<meta name="citation_online_date" content="2023-06-30">
+<meta name="citation_online_date" content="2023-07-06">
 <meta name="citation_language" content="en">
 <meta name="citation_journal_title" content="Earth and Space Science">
 <meta name="citation_reference" content="citation_title=Strategies for the development of volcanic hazard maps in monogenetic volcanic fields: The example of La Palma (Canary Islands);,citation_author=José Marrero;,citation_author=Alicia García;,citation_author=Manuel Berrocoso;,citation_author=Ángeles Llinares;,citation_author=Antonio Rodríguez-Losada;,citation_author=R. Ortiz;,citation_publication_date=2019-07;,citation_cover_date=2019-07;,citation_year=2019;,citation_doi=10.1186/s13617-019-0085-5;,citation_volume=8;,citation_journal_title=Journal of Applied Volcanology;">
@@ -151,7 +151,7 @@
       <a href="index.html" class="btn btn-outline-secondary quarto-back-link"><i class="bi bi-caret-left"></i> Back to Article</a>
       <h6><i class="bi bi-journal-code"></i> Article Notebook</h6>
 
-            <a href="index.ipynb" class="btn btn-primary quarto-download-embed" data-noresolveinput="true" download="index.ipynb">Download Notebook</a>
+            <a href="./index.ipynb" class="btn btn-primary quarto-download-embed" download="index.ipynb">Download Notebook</a>
           </div>
 
      <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
@@ -252,11 +252,7 @@
 <p>Data and methods are discussed in <a href="#sec-data-methods" class="quarto-xref">Section&nbsp;2</a>.</p>
 </div>
 <div id="cell-9" class="cell markdown">
-<p>Let <span class="math inline">\(x\)</span> denote the number of eruptions in a year. Then <span class="math inline">\(x\)</span> can be modeled by a Poisson distribution:</p>
-<p><span id="eq-poisson"><span class="math display">\[
-p(x)=\frac{e^{-\lambda} \lambda^{x}}{x !}
-\tag{1}\]</span></span></p>
-<p>Where <span class="math inline">\(\lambda\)</span> is the rate of eruptions per year. Using <a href="#eq-poisson" class="quarto-xref">Equation&nbsp;1</a>, the probability of an eruption in the next <span class="math inline">\(t\)</span> years can be calculated.</p>
+<p>Let <span class="math inline">\(x\)</span> denote the number of eruptions in a year. Then, <span class="math inline">\(x\)</span> can be modeled by a Poisson distribution<span class="math display">\[p(x) = \frac{e^{-\lambda} \lambda^{x}}{x !}\]</span> {#eq-poisson}where <span class="math inline">\(\lambda\)</span> is the rate of eruptions per year. Using <strong>?@eq-poisson</strong>, the probability of an eruption in the next <span class="math inline">\(t\)</span> years can be calculated.</p>
 </div>
 <div id="cell-10" class="cell markdown">
 <div id="tbl-history" class="anchored">
